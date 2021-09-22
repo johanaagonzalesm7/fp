@@ -13,8 +13,8 @@ Mi nombre es Johana Macias y soy estudiante de ***ITPA*
 
 ## Unidad 2:
 ### Objetivo:
-*ExamenUnidad1.py* : Mi primer examen de programacion en python.
+- *ExamenUnidad1.py* : Mi primer examen de programacion en python.
 
 ## Unidad 3:
 ### Objetivo:
-*README.md* : Agregue readme.
+- *README.md* : Agregue readme.
