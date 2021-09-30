@@ -8,7 +8,7 @@ Programa 7: Hacer un programa que  te pida dos números y te imprima el mayor.
 
 */
 
-Algoritmo NombresApellidos;
+Algoritmo NumeroMayor;
 VAR
 	Int X;
 	Int Y;
