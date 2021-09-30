@@ -17,7 +17,7 @@ VAR
 	Int C5;
 	Int Promedio;
 Inicio 
-	Escribir ("Primer caligicacion:");
+	Escribir ("Primer calificacion:");
 	Leer C1;
 	Escribir ("Segundo calificacion:");
 	Leer C2;
