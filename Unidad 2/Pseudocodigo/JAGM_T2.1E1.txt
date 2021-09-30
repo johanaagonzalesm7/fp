@@ -26,5 +26,5 @@ Inicio
 	Leer C4;
 	Escribir ("Quinta calificacion:");
 	Leer C5;
-	Escribir ("Las calificaciones son:", C1 C2 C3 C4 C5);
+	Escribir ("Las calificaciones son:", C1, C2, C3, C4, C5);
 Fin
