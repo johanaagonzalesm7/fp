@@ -10,9 +10,9 @@ Programa 6: Hacer un programa que te pida tu nombre y apellidos por separado y q
 
 Algoritmo NombresApellidos;
 VAR
-	Int N;
-	Int Ap;
-	Int Am;
+	Caracter N;
+	Caracter Ap;
+	Caracter Am;
 Inicio 
 	Escribir ("¿Cual es tu nombre(s):");
 	Leer N;
