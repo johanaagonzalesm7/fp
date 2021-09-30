@@ -1,5 +1,5 @@
 */
-Mi primer pseudocodigo
+Mi tercer pseudocodigo
 JohanaM
 ITPA
 TICS
