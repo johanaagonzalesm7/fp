@@ -1,21 +1,4 @@
-*/
-Mi tercer pseudocodigo
-JohanaM
-ITPA
-TICS
-
-Programa 3: Pide 5 calificaciones y las imprima en un renglon
-
-*/
-
-Algoritmo Calificaciones;
-VAR
-	Int C1;
-	Int C2;
-	Int C3;
-	Int C4;
-	Int C5;
-Inicio 
+Proceso Calificaciones_Imprimir 
 	Escribir ("Primer caligicacion:");
 	Leer C1;
 	Escribir ("Segundo calificacion:");
@@ -26,5 +9,5 @@ Inicio
 	Leer C4;
 	Escribir ("Quinta calificacion:");
 	Leer C5;
-	Escribir ("Las calificaciones son:", C1, C2, C3, C4, C5);
-Fin
+	Escribir "Las calificaciones son:", C1 "", C2 "", C3 "", C4 "", C5 ;
+FinProceso
