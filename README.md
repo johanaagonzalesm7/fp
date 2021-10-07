@@ -20,7 +20,7 @@ Mi nombre es Johana Macias y soy estudiante de *ITPA*
 - *README.md* : Agregue readme.
 
 ## Unidad 2:
-### Objetivo: Invstigar que es variable, constante, función, clase, estructuras de control, tipos de Datos (poner al menos 5 con su definición), operadores, constructores.
+### Objetivo: Invstigar que es variable, constante, función, clase, estructuras de control, tipos de datos (poner al menos 5 con su definición), operadores, constructores.
 
 - *Variable:* Es un elemento de datos con nombre cuyo valor puede cambiar durante el curso de la ejecución de un programa.
 - *Constante:* Es un valor que no puede ser alterado durante la ejecución del programa. Tan solo se puede leer, no se puede modificar.
