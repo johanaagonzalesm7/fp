@@ -1,0 +1,24 @@
+*/
+Mi septimo pseudocodigo
+Johana Macias
+ITPA
+TICS
+
+Programa 7: Hacer un programa que  te pida dos números y te imprima el mayor.
+
+*/
+
+Algoritmo NumeroMayor;
+VAR
+	Int X;
+	Int Y;
+Inicio 
+	Escribir ("Ingresa el valor del primer numero");
+	Leer X;
+	Escribir ("Ingresa el valor del sugundo numero");
+	Leer Y;
+	If (X>Y);
+		Escribir ("El numero mayor es:", X);
+	Else 
+		Escribir ("El numero mayor es:", Y);
+Fin
