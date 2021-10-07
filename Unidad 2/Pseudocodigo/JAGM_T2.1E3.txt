@@ -14,7 +14,7 @@ VAR
 	Int Resultado;
 Inicio 
 	Escribir ("Ingresa un numero:");
-	Leer N1;
+	Leer X;
 	Resultado = sqr(X)
 	Escribir ("El cuadrado del numero ingresado es:", Resultado);
 Fin

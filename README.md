@@ -32,6 +32,6 @@ Mi nombre es Johana Macias y soy estudiante de *ITPA*
 2. *Float:* El formato de dato del tipo “float” se aplica a los números con decimales. Los números de coma flotante tienen una mayor resolución que los de 32 bits que ocupa con un rango comprendido.
 3. *Int:* Las variables de tipo entero “int” pueden sobrepasar su valor máximo o mínimo como consecuencia de una operación.
 4. *Boolean:* Un booleano solo tiene dos valores true y false. Cada booleano ocupa un byte de memoria.
-5. *Char:* Representa un carácter que ocupa 1 byte de memoria. Los caracteres simples se representan con comillas simples ‘a’ y para múltiples caracteres o strings se representan con comillas dobles “Hola!”.
+5. *Char:* Representa un carácter que ocupa 1 byte de memoria. Los caracteres simples se representan con comillas simples ‘a’ y para múltiples caracteres o strings se representan con comillas dobles “Hola”.
 - *Operadores:*  Es un elemento de programa que se aplica a uno o varios operandos en una expresión o instrucción.
 - *Constructores:*  Es un método especial que se ejecuta en el momento que se crea un objeto de la clase. Su misión es reservar memoria e inicializar las variables.
