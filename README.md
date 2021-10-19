@@ -15,12 +15,12 @@ Mi nombre es Johana Macias y soy estudiante de *ITPA*
 ### Objetivo:
 - *ExamenUnidad1.py* : Mi primer examen de programacion en python.
 
-## Unidad 3:
-### Objetivo:
-- *README.md* : Agregue readme.
+
 
 ## Unidad 2:
-### Objetivo: Invstigar que es variable, constante, función, clase, estructuras de control, tipos de datos (poner al menos 5 con su definición), operadores, constructores.
+### Objetivo:
+- *README.md* : Agregue readme.
+- Invstigar que es variable, constante, función, clase, estructuras de control, tipos de datos (poner al menos 5 con su definición), operadores, constructores.
 
 - *Variable:* Es un elemento de datos con nombre cuyo valor puede cambiar durante el curso de la ejecución de un programa.
 - *Constante:* Es un valor que no puede ser alterado durante la ejecución del programa. Tan solo se puede leer, no se puede modificar.
@@ -35,3 +35,13 @@ Mi nombre es Johana Macias y soy estudiante de *ITPA*
 5. *Char:* Representa un carácter que ocupa 1 byte de memoria. Los caracteres simples se representan con comillas simples ‘a’ y para múltiples caracteres o strings se representan con comillas dobles “Hola”.
 - *Operadores:*  Es un elemento de programa que se aplica a uno o varios operandos en una expresión o instrucción.
 - *Constructores:*  Es un método especial que se ejecuta en el momento que se crea un objeto de la clase. Su misión es reservar memoria e inicializar las variables.
+
+## Unidad 3:
+### Objetivo:
+- *Investigar que es una clase y un objeto en la programacion. Poner 3 ejemplos.*
+- ¿Que es una clase? Es una pantilla para la creacion de objetos de datos segun el modelo predefinido. Las clases son utilizadas para representar entidades o conceptos.
+- ¿Que es un objeto en la programcion? Un objeto es similar a la del mundo real un objeto puede ser una silla, una mesa, un carro. Los objetos suelen tener dos caracteristicas: un estado y un comportamiento, es decir tiene una serie de datos almacenados y tareas que  realiza con esos datos en el timepo de ejecucion. Por ejemplo:
+1. Un conejo tiene un estado: nombre, color, raza, altura, pezo, etc.
+2. Una silla tiene un estado: color, tipo de madera, medidas de respando y de patas, tapiz, diseño.
+3. Un  carro tiene un estado: marca, color, km, caballo de fuerza, si es manueal o standar,  numero de puertas, etc.
+
