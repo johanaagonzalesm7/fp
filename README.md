@@ -14,11 +14,6 @@ Mi nombre es Johana Macias y soy estudiante de *ITPA*
 ## Unidad 2:
 ### Objetivo:
 - *ExamenUnidad1.py* : Mi primer examen de programacion en python.
-
-
-
-## Unidad 2:
-### Objetivo:
 - *README.md* : Agregue readme.
 - Invstigar que es variable, constante, función, clase, estructuras de control, tipos de datos (poner al menos 5 con su definición), operadores, constructores.
 
