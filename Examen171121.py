@@ -13,26 +13,26 @@ class alumno():
 		self.preparatoria = preparatoria
 		
 
-Reina = alumno("Emiliano Zapata", 17, "2.5km", 10, 8, 8, 7, 9, 8, 10) #8.5
-Britzy = alumno("Rindon de Romos", 18, "13m", 7, 6, 9, 5, 9, 7, 9) #7.4
-Mirozlava = alumno("Cosio", 19, "26km", 9, 7, 10, 6, 9, 10, 10) #8.7
-Fernando = alumno("Pabellon de Arteaga", 17, "2.8km", 10, 10, 8, 7, 9, 8, 6) #8.2
-Johana = alumno("Jesus Maria", 18, "29km", 9, 8, 6, 7, 7, 10, 9) #8
-Melany = alumno("Pabellon de Arteaga", 18, "2.8km", 5, 8, 6, 9, 10, 7, 8) #7.5
-Alejandro = alumno("Rindon de Romos", 19, "13m", 10, 9, 9, 6, 5, 7, 9) #7.8
-Diego = alumno("Rindon de Romos", 19, "13m", 7, 8, 9, 5, 10, 8, 10) #8.1
-Arely = alumno("Rindon de Romos", 18, "13m", 6, 6, 9, 10, 9, 6, 9) #6.5
-Alexis = alumno("Rindon de Romos", 18, "13m", 7, 6, 9, 5, 9, 5, 7) #6.8
-Isaac = alumno("Rindon de Romos", 19, "13m", 10, 6, 7, 9, 6, 7, 6) #7.2
-Austin = alumno("Pabellon de Arteaga", 18, "2.8km", 7, 8, 7, 9, 9, 7, 8) #7.8
-Donaldo = alumno("Pabellon de Arteaga", 17, "2.8km", 9, 6, 5, 10, 7, 7, 8) #7.4
-Elias = alumno("Rindon de Romos", 18, "13m", 10, 9, 8, 6, 9, 10, 10) #8.8
-Paola = alumno("Pabellon de Arteaga", 19, "2.8km", 10, 8, 6, 9, 10, 7, 7) #8.1
+Reina = alumno("Emiliano Zapata", 17, "2.5km", 10, 8, 8, 7, 9, 8, 10) 
+Britzy = alumno("Rindon de Romos", 18, "13m", 7, 6, 9, 5, 9, 7, 9) 
+Mirozlava = alumno("Cosio", 19, "26km", 9, 7, 10, 6, 9, 10, 10) 
+Fernando = alumno("Pabellon de Arteaga", 17, "2.8km", 10, 10, 8, 7, 9, 8, 6) 
+Johana = alumno("Jesus Maria", 18, "29km", 9, 8, 6, 7, 7, 10, 9) 
+Melany = alumno("Pabellon de Arteaga", 18, "2.8km", 5, 8, 6, 9, 10, 7, 8) 
+Alejandro = alumno("Rindon de Romos", 19, "13m", 10, 9, 9, 6, 5, 7, 9) 
+Diego = alumno("Rindon de Romos", 19, "13m", 7, 8, 9, 5, 10, 8, 10) 
+Arely = alumno("Rindon de Romos", 18, "13m", 6, 6, 9, 10, 9, 6, 9) 
+Alexis = alumno("Rindon de Romos", 18, "13m", 7, 6, 9, 5, 9, 5, 7) 
+Isaac = alumno("Rindon de Romos", 19, "13m", 10, 6, 7, 9, 6, 7, 6) 
+Austin = alumno("Pabellon de Arteaga", 18, "2.8km", 7, 8, 7, 9, 9, 7, 8) 
+Donaldo = alumno("Pabellon de Arteaga", 17, "2.8km", 9, 6, 5, 10, 7, 7, 8) 
+Elias = alumno("Rindon de Romos", 18, "13m", 10, 9, 8, 6, 9, 10, 10) 
+Paola = alumno("Pabellon de Arteaga", 19, "2.8km", 10, 8, 6, 9, 10, 7, 7) 
 print ("INGENIEROS EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION")
 opcion = 0
 while True:
 	print("""
-		Elige una opcion:
+		SELECCIONA UNA OPCION:
 		1) SALIR
 		2) LOS 5 ESTUDIANTES CON MEJOR CALIFICACION
 		3) PROMEDIO DE TODOS LOS ESTUDIANTES EN LA PREPARATORIA
@@ -40,7 +40,7 @@ while True:
 		5) MATERIA CON MEJOR RENDIMIENTO
 		6) LOS ALUMNOS QUE SON MAYORES DE EDAD
 		""")
-	opcion = int(input("Elige una opcion:"))
+	opcion = int(input("SELECCIONA UNA OPCION:"))
 	if opcion == 2:
 		print ("")
 		print("Elias con un promedio de 8.8 de", Elias.residencia)
@@ -73,7 +73,7 @@ while True:
 	elif opcion == 1:
 		break
 	else:
-		print("Opcion Incorrecta")
+		print("Incorrecta")
 
 
 
