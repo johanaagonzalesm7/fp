@@ -1,16 +1,18 @@
-funtion [bandera] = esFibonacci(numero)
-z = int(input('Ingresa un numero'))
-pre == 0
-pos == 1
-bandera == false
-while (pre <= pos):
-	if pre == numero:
-		bandera == true
-	and
-and
-numero = input("Por favor ingresar un numero")
-if (esFibonacci(numero))
-	print ( "el numero si pertenece a la serie fibonacci")
-else
-	print ("el numero no pertenece a la serie fibonacci")
-and
+n = int(input('Ingresa un numero'))
+def fibonacci_iter(n):
+	a=1
+	b=1
+	if n == 1:
+		print ('0')
+	elif n==2:
+		print ('0','1')
+	else:
+		print('0')
+		print(a)
+		print(b)
+		for i in range(n-3):
+			total=a+b
+			b=a
+			a=total
+			print(total)
+fibonacci_iter(n)
