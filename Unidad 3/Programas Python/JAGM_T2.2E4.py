@@ -5,4 +5,4 @@ P = (C1+C2+C3)/3
 if P>5:
 	print ('Estas aprobado')
 else:
-	Escribir ('Estas reprobado')
+	print ('Estas reprobado')
