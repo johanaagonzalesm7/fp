@@ -7,7 +7,7 @@ while True:
 		4) DIVISION
 		5) SALIR
 		""")
-	opcion=int(input("Selecciona Una Opcion:"))
+	opcion=int(input(""))
 	if opcion==1:
 		print("")
 		numeroUno=int(input("Escribe el primer valor:"))
