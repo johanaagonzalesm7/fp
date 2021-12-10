@@ -1,64 +1,57 @@
-from tkinter import *
-from math import *
+from tkinter import Tk, Text, Button
 
-def btnClik(num):
-	global operador
-	operador=operador+str(num)
-	input_text.set(operador)
+class Interfaz:
+    def __init__(self, ventana):
+        
+        self.ventana=ventana
+        self.ventana.title("Calculadora")
 
-def resultado():
-	global operador
-	try:
-		opera=str(eval(operador))
-		input_text.set(opera)
-	except:
-		input_text.set("Error")
-		operador = ""
+        
+        self.pantalla=Text(ventana, state="disabled", width=40, height=3, background="black", foreground="white", font=("Helvetica",15))
 
-def clear():
-	global operador
-	operador=("")
-	input_text.set("0")
+        
+        self.pantalla.grid(row=0,column=0,columnspan=4,padx=5,pady=5)
 
-ventana=Tk()
-ventana.title("calculadora")
-ventana.geometry("392*600")
-ventana.configure(backgroud='SkyBlue4')
-color.boton=("gray77")
-
-ancho_boton=11
-alto_boton=3
-input_text=StringVar()
-operador=""
-
-Salida=Entry(ventana,font=('arial',20,'bold')widch=22,textvariable=input_text,bd=20,insetwidth=4,bg='powder blue',justify='right')
-Salida.place(x=10,y=60)
-
-button(ventana,text='o',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(0)).place(x=17,y=180)
-button(ventana,text='1',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(1)).place(x=107,y=180)
-button(ventana,text='2',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(2)).place(x=197,y=180)
-button(ventana,text='3',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(3)).place(x=287,y=180)
-button(ventana,text='4',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(4)).place(x=17,y=240)
-button(ventana,text='5',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(5)).place(x=107,y=180)
-button(ventana,text='6',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(6)).place(x=197,y=180)
-button(ventana,text='7',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(7)).place(x=287,y=180)
-button(ventana,text='8',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(8)).place(x=17,y=300)
-button(ventana,text='9',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(9)).place(x=107,y=300)
-button(ventana,text='π',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('pi')).place(x=197,y=300)
-button(ventana,text=',',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(',')).place(x=287,y=300)
-button(ventana,text='+',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('+')).place(x=17,y=360)
-button(ventana,text='-',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('-')).place(x=107,y=360)
-button(ventana,text='*',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('*')).place(x=197,y=360)
-button(ventana,text='/',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('/')).place(x=287,y=360)
-button(ventana,text='√',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('sqrt(')).place(x=17,y=420)
-button(ventana,text='(',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('(')).place(x=107,y=480)
-button(ventana,text=')',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(')')).place(x=107,y=480)
-button(ventana,text='%',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('%')).place(x=197,y=480)
-button(ventana,text='In',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('long(')).place(x=287,y=180)
-button(ventana,text='C',widch=ancho_boton,height=alto_boton).place(x=107,y=420)
-button(ventana,text='EXP',widch=ancho_boton,height=alto_boton,command=lambda:btnClik('**')).place(x=197,y=420)
-button(ventana,text='=',widch=ancho_boton,height=alto_boton).place(x=287,y=420)
+        
+        self.operacion=""
 
 
-clar()
-ventana.mainloop()
+        
+        boton1=self.crearBoton(7)
+        boton2=self.crearBoton(8)
+        boton3=self.crearBoton(9)
+        boton4=self.crearBoton(u"\u232B")
+        boton5=self.crearBoton(4)
+        boton6=self.crearBoton(5)
+        boton7=self.crearBoton(6)
+        boton8=self.crearBoton(u"\u00F7")
+        boton9=self.crearBoton(1)
+        boton10=self.crearBoton(2)
+        boton11=self.crearBoton(3)
+        boton12=self.crearBoton("*")
+        boton13=self.crearBoton(".")
+        boton14=self.crearBoton(0)
+        boton15=self.crearBoton("+")
+        boton16=self.crearBoton("-")
+        boton17=self.crearBoton("=",ancho=10,alto=2)
+
+
+        botones=[boton1, boton2, boton3, boton4, boton5, boton6, boton7, boton8, boton9, boton10, boton11, boton12, boton13, boton14, boton15, boton16, boton17]
+        contador=0
+        for fila in range(1,5):
+            for columna in range(4):
+                botones[contador].grid(row=fila,column=columna)
+                contador+=1
+        
+        botones[16].grid(row=5,column=0,columnspan=4)
+        return
+
+
+    
+    def crearBoton(self,valor,escribir=True,ancho=9,alto=1):
+        return Button(self.ventana, text=valor, width=ancho, height=alto,background="aqua", font=("Helvetica",15), command=lambda:self.click(valor,escribir))
+
+
+ventana_principal = Tk()
+calculadora = Interfaz(ventana_principal)
+ventana_principal.mainloop()
