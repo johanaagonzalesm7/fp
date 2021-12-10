@@ -31,8 +31,7 @@ alto_boton=3
 input_text=StringVar()
 operador=""
 
-Salida=Entry(ventana,font=('arial',20,'bold')widch=22,textvariable=input_text,bd=20,
-	insetwidth=4,bg='powder blue',justify='right')
+Salida=Entry(ventana,font=('arial',20,'bold')widch=22,textvariable=input_text,bd=20,insetwidth=4,bg='powder blue',justify='right')
 Salida.place(x=10,y=60)
 
 button(ventana,text='o',widch=ancho_boton,height=alto_boton,command=lambda:btnClik(0)).place(x=17,y=180)
