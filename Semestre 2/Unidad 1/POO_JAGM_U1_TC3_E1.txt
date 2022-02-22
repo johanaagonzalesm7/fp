@@ -1,0 +1,14 @@
+Inicio
+Escribir "visualizar que productos estan disponibles"
+Escribir "Elegir el producto"
+Leer Productos
+Escribir "Insertar dinero a la maquina"
+Leer Dinero
+Escribir "Insertar el Id del producto"
+Leer ID
+Si "Paga justo" Entonces "Entregar el producto"
+Leer Entrgar el producto
+Sino "Regresar cambio" Entonces "Entregar el producto"
+Leer Regresar cambio
+Escribir "Mensaje de Gracias"
+Fin

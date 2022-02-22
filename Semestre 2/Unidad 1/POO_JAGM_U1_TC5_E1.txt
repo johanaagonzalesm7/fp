@@ -1,0 +1,39 @@
+Inicio
+Escribir ("Ingresa a la concocatoria");
+Escribir ("Haer el llenado de tus datos");
+Escribir ("¿Cual es tu Apellido Paterno?");
+Leer Ap;
+Escribir ("¿Cual es tu Apellino Materno?");
+Leer Am;
+Escribir ("¿Cual es tu nombre?");
+Leer N;
+Escribir ("¿Cual es tu direccion?");
+Leer D;
+Escribir ("¿Que grado estas cuersanso?");
+Leer GC;
+Escribir ("¿Cual es tu promedio?");
+Leer P;
+Si "Los datos son correctos" Entonces 'Subir archio con documentos personales
+Sino Entonces
+Escribir ("¿Cual es tu Apellido Paterno?");
+Leer Ap;
+Escribir ("¿Cual es tu Apellino Materno?");
+Leer Am;
+Escribir ("¿Cual es tu nombre?");
+Leer N;
+Escribir ("¿Cual es tu direccion?");
+Leer D;
+Escribir ("¿Que grado estas cuersanso?");
+Leer GC;
+Escribir ("¿Cual es tu promedio?");
+Leer P;
+	Si 'Los datos coinciden con los documentos' Entonces 
+	Sino 'Cancelar Solicitud' Entonces
+		Si Promedio>9 Entonces
+		Sino 'Cancelar Solicitud' Entonces
+			Si 'Debe materias' Entonces 'Cancelar solicitud'
+			Sino 'Verificar que no sea beneficiaria de otra beca' entonces
+				Si 'Es beneficiario' Entonces 'Cancelar solicitud'
+				Sino Entonces 'Obtendra la beca'
+Fin
+

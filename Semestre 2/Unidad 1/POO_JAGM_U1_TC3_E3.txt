@@ -1,0 +1,14 @@
+Inicio
+Escribir "Entrar a la tienda"
+Escribir "Seleccionar los productos a comprar"
+Leer "Producto a compar"
+Escribir "Ir a caja"
+Escribir "Esperar turno"
+Leer "Turno"
+Escribir "Cajera da respuesta al cliente del total de los productos"
+Si "Cliente paga justo" Entonces "Mensaje de gracias"
+Leer "Paga"
+Sino "Regresar cambio" Entonces "Mensaje de gracias"
+Leer "cambio"
+Escribir "Retirarse de la tienda"
+Fin

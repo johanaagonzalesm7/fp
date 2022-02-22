@@ -1,18 +1,17 @@
 while True:
 	print("""
-		SELECCIONA UNA OPCION:
-		1) SUMA
-		2) RESTA
-		3) MULTIPLICACION
-		4) DIVISION
-		5) SALIR
+		SELECCIONA UNA EL REFRESCO DE TU AGRAD0:
+		1) COCA COLA $18
+		2) FRESCA $14
+		3) MUNDET $17
+		4) FANTA $16
+		5) SPRIT $15
+		6) SALIR
 		""")
 	opcion=int(input(""))
 	if opcion==1:
 		print("")
-		numeroUno=int(input("Escribe el primer valor:"))
-		numeroDos=int(input("Escribe el segundo valor:"))
-		Suma = (numeroUno+numeroDos)
+		print("El producto seleccionado es coca")
 		print ("El resultado de la suma es:",Suma)
 	elif opcion==2:
 		print("")
