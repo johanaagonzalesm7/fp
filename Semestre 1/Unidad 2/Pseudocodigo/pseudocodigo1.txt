@@ -1,0 +1,18 @@
+*/
+Mi primer pseudocodigo
+JohanaM
+ITPA
+TICS
+
+Programa 1: Imprimir nuestro nombre
+
+*/
+
+Algoritmo ImprimirNombre;
+VAR
+	Caracter minombre;
+Inicio
+	Escribir ("¿Cual es el mi nombre?");
+	Leer minombre;
+	Escribir (minombre);
+Fin
